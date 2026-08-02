@@ -1,9 +1,9 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   imports = [
     ./hardware-configuration.nix
-    ./bundle.nix
+    ./modules
   ];
 
   nix.settings.experimental-features = [

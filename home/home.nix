@@ -1,8 +1,8 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   imports = [
-    ./bundle.nix
+    ./modules
   ];
 
   home = {
