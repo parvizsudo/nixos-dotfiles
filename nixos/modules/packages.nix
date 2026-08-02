@@ -15,6 +15,18 @@
 
   environment.systemPackages = with pkgs; [
 
+    # Desktop apps
+    kdePackages.kate
+    kdePackages.kcalc
+    kdePackages.kclock
+    spotify
+    qbittorrent
+    carburetor
+    vscodium
+    haruna
+    telegram-desktop
+    obs-studio
+
     # Coding stuff
     gnumake
     gcc
